@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(214, 214, 214);
   height: 100vh;
   overflow: hidden;
   font-family: 'Ubuntu', sans-serif;
@@ -15,6 +15,15 @@ main {
 h1 {
   font-size: 34px;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  
+}
+
+h1 span {
+  margin-right: 110px;
+  font-size: 16px;
+  display: block;
+  color: rgb(32, 8, 85);
 }
 
 .box {
@@ -24,7 +33,7 @@ h1 {
 }
 
 label {
-  color: #cecece;
+  color: rgb(32, 8, 85);
 }
 
 #form {
