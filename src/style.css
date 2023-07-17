@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  background-color: rgb(27, 27, 27);
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.box {
+  display: flex;
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+label {
+  color: #cecece;
+}
+
+#form {
+  width: 100%;
+  gap: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form input {
+  padding: 15px;
+  font-size: 24px;
+  width: 165px;
+  text-align: center;
+}
+
+#passwordView {
+  width: 80%;
+  margin: auto 15px;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 15px;
+  color: black;
+  height: 150px;
+  text-align: center;
+  background-color: #cecece;
+}
+
+#form button {
+  padding: 20px;
+  background-color: rgb(32, 8, 85);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  flex: 1;
+}
+
+#form button:hover {
+  transition: 0.5;
+  padding: 20px;
+  background-color: rgb(25, 6, 67);
+}

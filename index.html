@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Gerador de Senha</h1>
+      <div id="form">
+        <label for="passInput">Digite o tamanho da Senha</label>
+        <div class="box">
+          <input type="number" autofocus id="passInput" min="0" max="15"/>
+          <button id="btnGeneratePass">Gerar senha</button>
+        </div>
+      </div>
+      <textarea rows="20" readonly id="passwordView"></textarea>
+    </main>
+  </body>
+  <script src="./src/scripts.js"></script>
+</html>

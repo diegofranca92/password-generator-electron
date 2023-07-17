@@ -1,0 +1,12 @@
+{
+  "name": "password-generator-electron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^25.3.0"
+  }
+}
